@@ -1,15 +1,7 @@
-[tool.poetry]
+[project]
 name = "python-protobuf-demo"
 version = "0.1.0"
-description = ""
-authors = ["Ganesh Chandrasekaran <gchandra@gmail.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-protobuf = "^5.29.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "protobuf>=6.33.5",
+]
